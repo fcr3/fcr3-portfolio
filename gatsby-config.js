@@ -10,8 +10,16 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    'gatsby-plugin-react-helmet',
     `gatsby-plugin-emotion`,
-    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: ['gatsby-remark-copy-linked-files']
+      }
+    },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: `gatsby-plugin-typography`,
       options: {
