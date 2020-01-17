@@ -1,3 +1,15 @@
+# fcr3 Portfolio Repository 
+
+## Intro
+Site was made using Gatsby.js along with a number of plugins. 
+
+## Startup Instructions
+1. Clone Repository
+2. Change directories into the repository folder and enter `npm install`
+3. Run `gatsby develop`
+
+______
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
